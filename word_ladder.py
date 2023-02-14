@@ -71,7 +71,7 @@ def verify_word_ladder(ladder):
                 count += 0
             else:
                 count += 1
-        return(count == 0)
+        return (count == 0)
     else:
         return False
 
@@ -95,4 +95,4 @@ def _adjacent(word1, word2):
                 count += 1
     else:
         return False
-    return(count == 1)
+    return (count == 1)
