@@ -27,7 +27,6 @@ def word_ladder(start_word, end_word, dictionary_file='words5.dict'):
     'hooty', 'hooey', 'honey', 'money']
     ```
     (We cannot use doctests here because the outputs are not unique.)
-
     Whenever it is impossible to generate a word ladder
     between the two words,
     the function returns `None`.
